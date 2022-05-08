@@ -57,18 +57,6 @@ public class Main {
     }
 
     /**
-     * Generate a Grid for demo
-     * @return grid
-     */
-    private List<List<Character>> generateGrid() {
-        List<List<Character>> grid = new ArrayList<>();
-        grid.add(Arrays.asList('C', 'A','T'));
-        grid.add(Arrays.asList('R','R','E'));
-        grid.add(Arrays.asList('Z', 'O', 'N'));
-        return grid;
-    }
-
-    /**
      * Print the result to show words listed by the function and they match to the dictionary
      */
     private void showResult(){
